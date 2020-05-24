@@ -1,10 +1,12 @@
-# ReactJS Template Simple
+# ReactJS Redux Template
 
 ### Libs
 
 > :pencil2: Eslint
 ---------
-> :cloud: Redux - Redu Persister - Immer - 
+> :cloud: Redux - Redu Persister - Immer 
+---------
+> :books: History
 ---------
 > :mag: Root Import
 ---------
