@@ -4,8 +4,6 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { Router } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 
-import ThemeConfig from './ThemeConfig';
-
 import { GlobalStyle } from './theme/global';
 
 import Routes from './routes/routes';
@@ -17,11 +15,9 @@ function App() {
     <Provider store={store}>
       <PersistGate persistor={persistor}>
         <Router history={history}>
-          <ThemeConfig>
-            <GlobalStyle />
-            <ToastContainer />
-            <Routes />
-          </ThemeConfig>
+          <GlobalStyle />
+          <ToastContainer />
+          <Routes />
         </Router>
       </PersistGate>
     </Provider>
